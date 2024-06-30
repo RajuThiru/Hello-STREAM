@@ -114,6 +114,6 @@ df_plot = new_df[new_df["Category"] != ""].Category.value_counts().reset_index()
 st.bar_chart(df_plot, x="Category", y="count")
 
 st.write(
-    "Here we are at the end of getting started with streamlit! Happy Streamlit-ing! :balloon:"
+    "Here we are at the end of getting started with streamlit! Happy Streamlit-ing! :balloon: Bye by Thiru"
 )
 
